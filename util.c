@@ -5,14 +5,14 @@
  * */
 #include <stdio.h>
 
-#include "util.h"
-int main (int argc,char**argv)
+
+void  leer (int argc,char**argv)
 {
 	int n,arreglo[100];
   
   printf("teclee numeros");
   scanf("%d" , &n);
   printf("n:%d",n);
-  return 0;
+  
   
 }
